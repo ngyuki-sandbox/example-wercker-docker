@@ -1,0 +1,7 @@
+box: docker.io/centos:7
+build:
+  steps:
+    - script:
+        name: uname
+        code: |-
+          uname -a
